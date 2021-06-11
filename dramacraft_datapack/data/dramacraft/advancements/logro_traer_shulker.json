@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "¿Estámos locos o qué?",
+            "color": "white"
+        },
+        "description": {
+            "text": "Traer un Shulker al Overworld",
+            "color": "gold"  
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Name: \"TWXELA\", Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTU5MzgzNDY0ODkyNiwKICAicHJvZmlsZUlkIiA6ICJiYWE1Yjg0YzA2NGM0NTBlYjU2NTU4ZDQxOWVmYTkzMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYW1lbGxpYWFkYW1zIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RkMGYwMjAzMDU4NjRlNWZlN2RiNmIwMDdiZjcyODE0N2U4ZjQzYzdhZjc1OGJjOWJiMzNlMDIzMTM2NGQwZjkiCiAgICB9CiAgfQp9\"}]}}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "dramacraft:logros",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

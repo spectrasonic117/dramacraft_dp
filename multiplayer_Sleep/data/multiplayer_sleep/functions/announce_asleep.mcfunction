@@ -1,0 +1,3 @@
+scoreboard players add #asleep mpSleep.dummy 1
+execute if score #asleep mpSleep.dummy = #total mpSleep.dummy run tellraw @a[tag=mpSleep.display3] ["",{"selector":"@s","color":"yellow"},{"text":" Fué a mimir, Dulces Sueños","color":"gold"}]
+execute unless score #asleep mpSleep.dummy = #total mpSleep.dummy unless score #asleep mpSleep.dummy > #total mpSleep.dummy run tellraw @a[tag=mpSleep.display3] ["",{"selector":"@s","color":"yellow"},{"text":" went to sleep. ","color":"gold"},{"score":{"name":"#asleep","objective":"mpSleep.dummy"},"color":"yellow"},{"text":" of ","color":"yellow"},{"score":{"name":"#total","objective":"mpSleep.dummy"},"color":"yellow"},{"text":" player(s) asleep","color":"gold"}]

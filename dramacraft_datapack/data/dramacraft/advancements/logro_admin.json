@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Logro Secreto del Admin",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Solo el Admin Puede ver este logro",
+            "color": "dark_purple"  
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Name: \"Spectrasonic\", Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTU5MzUzNTI5NDU3MCwKICAicHJvZmlsZUlkIiA6ICI3M2ZkNzU2NWJkZTY0MGQzYWE4MGUxMWUwMTMwMjc3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHYUJySWVMVnR6IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNjYjZiMDcyMDVlOTg5MzE5ZTMxMDc5OWNiYjM1Y2JkZGNiMzI5NDEyNmZiNGYzMzJlMzk0YzIyODVjNTRkZDMiCiAgICB9CiAgfQp9\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "dramacraft:root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

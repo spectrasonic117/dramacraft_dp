@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dragon_head"
+    },
+    "title": "Dragon Drop",
+    "description": [
+      "",
+      {
+        "text": "Probabilidad del 50% de que el Dragon te dropee la Elitra",
+        "color": "gold"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "dramacraft:data",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

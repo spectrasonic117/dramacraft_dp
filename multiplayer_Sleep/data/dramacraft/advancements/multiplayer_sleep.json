@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_bed"
+		},
+		"title": "Multiplayer Sleep   ",
+		"description": ["",{"text":"No todos los jugadores del Overworld deben dormir para saltarse la noche y la lluvia.\n","color":"gold"},{"text":"Usa","color":"green"},{"text":" ","color":"gold"},{"text":"/trigger mpSleep","color":"yellow"},{"text":" Para Personalizar el Plugin\n","color":"gold"},{"text":"Usa","color":"green"},{"text":" ","color":"gold"},{"text":"/function multiplayer_sleep:config","color":"yellow"},{"text":" Para opciones de Configuración","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "dramacraft:data",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
