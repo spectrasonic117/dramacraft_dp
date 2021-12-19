@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Dias Navideños",
+            "bold": true
+        },
+        "description": {
+            "text": "Genera un Snow Golem"
+        },
+        "icon": {
+            "item": "minecraft:snow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:snow_golem"
+                }
+            }
+        }
+    },
+    "parent": "global:logros",
+}

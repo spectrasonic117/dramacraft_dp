@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Logro Secreto del Admin",
+            "color": "aqua"
+        },
+        "description": [
+            "",
+            {
+              "text": "Solo el Admin Puede ver este logro\n",
+              "color": "light_purple"
+            },
+            { "text": "\n", "color": "white" },
+            { "text": "Servidor Programado y Administrado por\n", "color": "white" },
+            { "text": "Spectrasonic", "color": "dark_red", "bold": true }
+          ],
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'spectrasonic'}"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

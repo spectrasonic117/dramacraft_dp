@@ -1,0 +1,64 @@
+{
+    "display": {
+        "title": {
+            "text": "Maestro de la Muerte",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Usa un totem 5 veces",
+            "color": "white",
+            "bold": true
+        },
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:totem_of_undying"
+                }
+            }
+        },
+        "c2": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:twisting_vines"
+                }
+            }
+        },
+        "c3": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:totem_of_undying"
+                }
+            }
+        },
+        "c4": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:totem_of_undying"
+                }
+            }
+        },
+        "c5": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:totem_of_undying"
+                }
+            }
+        }
+    },
+    "parent": "global:logros",
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "heart_of_the_sea"
+      },
+      "title": "Paquetes del Servidor",
+      "description": [
+        "",
+        {
+          "text": "Paquetes Instalados",
+          "color": "green"
+        }
+      ],
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

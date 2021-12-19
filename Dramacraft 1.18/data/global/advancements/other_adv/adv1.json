@@ -1,0 +1,49 @@
+{
+    "display": {
+        "title": {
+            "text": "Viajero Dimensional",
+            "color": "dark_purple",
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "Viaja a todas las dimensiones",
+            "color": "white",
+            "bold": true
+        },
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "overworld",
+                "to": "the_nether"
+            }
+        },
+        "c2": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "overworld",
+                "to": "the_end"
+            }
+        },
+        "c3": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "the_nether",
+                "to": "overworld"
+            }
+        }
+    },
+    "parent": "global:logros",
+}

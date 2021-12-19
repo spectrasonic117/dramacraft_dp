@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "¿Estámos locos o qué?",
+            "color": "white"
+        },
+        "description": {
+            "text": "Traer un Shulker al Overworld",
+            "color": "gold"  
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'twxela'}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "global:logros",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

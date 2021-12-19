@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "skull_banner_pattern"
+      },
+      "title": "Logros del Servidor",
+      "description": [
+        "",
+        {
+          "text": "Logros del Servidor",
+          "color": "green"
+        }
+      ],
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

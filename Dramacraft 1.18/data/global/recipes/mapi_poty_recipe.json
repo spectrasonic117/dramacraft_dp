@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " P ",
+        "DHU"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wheat_seeds"
+        },
+        "P": {
+            "item": "minecraft:potion"
+        },
+        "D": {
+            "item": "minecraft:dandelion"
+        },
+        "H": {
+            "item": "minecraft:poisonous_potato"
+        },
+        "U": {
+            "item": "minecraft:poppy"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

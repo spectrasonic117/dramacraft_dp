@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "La Exposición",
+            "color": "dark_green"
+        },
+        "description": {
+            "text": "Obtén la poción de Mapi",
+            "color": "gold"  
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'mariapazgn'}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "global:logros",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:potion",
+                    "potion": "minecraft:luck"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "La profundidad del mundo",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Parate en Bedrock",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:bedrock"
+            }
+        }
+    },
+    "parent": "global:logros",
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Que pro",
+            "color": "blue",
+            "bold": true
+        },
+        "description": {
+            "text": "Haz un Waterdrop",
+            "color": "white",
+            "bold": true
+        },
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:water"
+            }
+        }
+    },
+    "parent": "global:logros",
+}

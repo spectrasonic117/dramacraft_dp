@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "No hay Trato… ",
+            "color": "dark_red",
+            "bold": true
+        },
+        "description": {
+            "text": "Mata a un Aldeano",
+            "color": "white",
+            "bold": true
+        },
+        "icon": {
+            "item": "minecraft:golden_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "flags": {
+                        "is_on_fire": false
+                    }
+                }
+            }
+        }
+    },
+    "parent": "global:logros",
+}

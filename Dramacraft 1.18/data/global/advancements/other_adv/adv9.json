@@ -1,0 +1,42 @@
+{
+    "display": {
+        "title": {
+            "text": "Francotirador",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Golpea un bloque objetivo 6 veces con cualquier proyectil",
+            "color": "white",
+            "bold": true
+        },
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:target_hit"
+        },
+        "c2": {
+            "trigger": "minecraft:target_hit"
+        },
+        "c3": {
+            "trigger": "minecraft:target_hit"
+        },
+        "c4": {
+            "trigger": "minecraft:target_hit"
+        },
+        "c5": {
+            "trigger": "minecraft:target_hit"
+        },
+        "c6": {
+            "trigger": "minecraft:target_hit"
+        }
+    },
+    "parent": "global:logros",
+}

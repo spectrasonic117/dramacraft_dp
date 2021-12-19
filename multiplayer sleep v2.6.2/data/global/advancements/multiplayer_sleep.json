@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_bed"
+		},
+		"title": "Multiplayer Sleep   ",
+		"description": ["",
+
+			{"text":"Sleep anuouncement.\n","color":"gold"},
+
+			{"text":"Use: ","color":"green"},
+
+			{"text":"/trigger mpSleep","color":"yellow","italic":"true"},
+
+			{"text":" Para configuración personal \n","color":"gold"},
+
+			{"text":"use: ","color":"green"},
+
+			{"text":"/function multiplayer_sleep:config","color":"yellow","italic":"true"},
+
+			{"text":" para opciones Globales","color":"gold"}],
+
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "global:datapacks",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

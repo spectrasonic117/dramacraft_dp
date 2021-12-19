@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "Espera… Que!?",
+            "color": "gold",
+            "bold": true,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "Que te caiga un rayo ^",
+            "color": "white",
+            "bold": true
+        },
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:lightning_bolt"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "global:logros",
+}

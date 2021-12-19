@@ -1,0 +1,15 @@
+{
+  "criteria": {
+   "unlocked": {
+          "trigger": "minecraft:recipe_unlocked",
+          
+          "conditions": {
+              "recipe": "global:mapi_poty_recipe"
+          }
+      }
+  },
+
+   "rewards": {
+       "function": "global:crafted_mapi_poty"
+  }
+}
