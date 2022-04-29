@@ -8,4 +8,4 @@
 
 
 scoreboard objectives add health health 
-scoreboard objectives setdisplay list healt
+scoreboard objectives setdisplay list health
